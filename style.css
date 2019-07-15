@@ -1,0 +1,52 @@
+body {
+  overflow: hidden;
+}
+#carry {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: #00BCD4;
+  transform: rotate(0);
+  transition: all 0.1s ease;
+}
+
+.changeColor {
+  top: calc(50% - 75px)!important;
+  left: calc(50% - 75px) !important;
+  transform: rotate(225deg) !important;
+  background: #000 !important;
+  transition: all 0.8s ease !important;
+}
+.reChangeColor {
+  top: calc(100% - 150px) !important;
+  left: calc(100% - 150px)!important;
+  transform: rotate(0deg) !important;
+  background: #43A047 !important;
+  transition: all 0.8s ease !important;
+}
+
+.corner1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.corner2 {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 150px);
+}
+
+.corner3 {
+  position: absolute;
+  top: calc(100% - 150px);
+  left: calc(100% - 150px);
+}
+
+.corner4 {
+  position: absolute;
+  top: calc(100% - 150px;
+  left: 0;
+}
